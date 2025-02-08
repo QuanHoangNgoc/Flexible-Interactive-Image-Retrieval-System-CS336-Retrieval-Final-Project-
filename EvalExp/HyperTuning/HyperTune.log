@@ -1,0 +1,488 @@
+9.6s 1 2.5.1+cu121
+9.6s 2 True
+9.6s 3 Oke
+197.6s 4 The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+204.8s 5 2025-01-19 19:05:41.872793: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+205.0s 6 2025-01-19 19:05:42.060441: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+205.1s 7 2025-01-19 19:05:42.116053: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+225.9s 8 Parameter: logit_scale
+225.9s 9 Data type: torch.float32
+225.9s 10 Requires gradient: False
+225.9s 11 Device: cuda:0
+225.9s 12 --------------------
+225.9s 13 Parameter: logit_bias
+225.9s 14 Data type: torch.float32
+225.9s 15 Requires gradient: False
+225.9s 16 Device: cuda:0
+225.9s 17 --------------------
+225.9s 18 Parameter: vision_model.head.mlp.fc1.bias
+225.9s 19 Data type: torch.float32
+225.9s 20 Requires gradient: False
+225.9s 21 Device: cuda:0
+225.9s 22 --------------------
+225.9s 23 Parameter: vision_model.head.mlp.fc2.weight
+225.9s 24 Data type: torch.float32
+225.9s 25 Requires gradient: False
+225.9s 26 Device: cuda:0
+225.9s 27 --------------------
+225.9s 28 Parameter: vision_model.head.mlp.fc2.bias
+225.9s 29 Data type: torch.float32
+225.9s 30 Requires gradient: False
+225.9s 31 Device: cuda:0
+225.9s 32 --------------------
+724.9s 33 (36014, 768)
+725.0s 34 Processing Batches:   0%|          | 0/563 [00:00<?, ?it/s]Processing Batches:   0%|          | 1/563 [00:01<17:28,  1.87s/it]Processing Batches:   0%|          | 2/563 [00:03<14:44,  1.58s/it]Processing Batches:   1%|          | 3/563 [00:04<13:45,  1.47s/it]Processing Batches:   1%|          | 4/563 [00:05<13:17,  1.43s/it]Processing Batches:   1%|          | 5/563 [00:07<13:03,  1.40s/it]Processing Batches:   1%|          | 6/563 [00:08<12:44,  1.37s/it]Processing Batches:   1%|          | 7/563 [00:09<12:34,  1.36s/it]Processing Batches:   1%|▏         | 8/563 [00:11<12:35,  1.36s/it]Processing Batches:   2%|▏         | 9/563 [00:12<12:25,  1.35s/it]Processing Batches:   2%|▏         | 10/563 [00:13<12:22,  1.34s/it]Processing Batches:   2%|▏         | 11/563 [00:15<12:24,  1.35s/it]Processing Batches:   2%|▏         | 12/563 [00:16<12:20,  1.34s/it]Processing Batches:   2%|▏         | 13/563 [00:17<12:07,  1.32s/it]Processing Batches:   2%|▏         | 14/563 [00:19<12:08,  1.33s/it]Processing Batches:   3%|▎         | 15/563 [00:20<12:05,  1.32s/it]Processing Batches:   3%|▎         | 16/563 [00:21<12:01,  1.32s/it]Processing Batches:   3%|▎         | 17/563 [00:23<11:56,  1.31s/it]Processing Batches:   3%|▎         | 18/563 [00:24<11:59,  1.32s/it]Processing Batches:   3%|▎         | 19/563 [00:25<11:55,  1.32s/it]Processing Batches:   4%|▎         | 20/563 [00:27<11:56,  1.32s/it]Processing Batches:   4%|▎         | 21/563 [00:28<11:58,  1.33s/it]Processing Batches:   4%|▍         | 22/563 [00:29<11:55,  1.32s/it]Processing Batches:   4%|▍         | 23/563 [00:31<11:49,  1.31s/it]Processing Batches:   4%|▍         | 24/563 [00:32<11:43,  1.31s/it]Processing Batches:   4%|▍         | 25/563 [00:33<11:46,  1.31s/it]Processing Batches:   5%|▍         | 26/563 [00:35<11:49,  1.32s/it]Processing Batches:   5%|▍         | 27/563 [00:36<11:47,  1.32s/it]Processing Batches:   5%|▍         | 28/563 [00:37<11:41,  1.31s/it]Processing Batches:   5%|▌         | 29/563 [00:38<11:39,  1.31s/it]Processing Batches:   5%|▌         | 30/563 [00:40<11:39,  1.31s/it]Processing Batches:   6%|▌         | 31/563 [00:41<11:37,  1.31s/it]Processing Batches:   6%|▌         | 32/563 [00:42<11:38,  1.31s/it]Processing Batches:   6%|▌         | 33/563 [00:44<11:39,  1.32s/it]Processing Batches:   6%|▌         | 34/563 [00:45<11:41,  1.33s/it]Processing Batches:   6%|▌         | 35/563 [00:46<11:40,  1.33s/it]Processing Batches:   6%|▋         | 36/563 [00:48<11:33,  1.32s/it]Processing Batches:   7%|▋         | 37/563 [00:49<11:32,  1.32s/it]Processing Batches:   7%|▋         | 38/563 [00:50<11:25,  1.31s/it]Processing Batches:   7%|▋         | 39/563 [00:52<11:22,  1.30s/it]Processing Batches:   7%|▋         | 40/563 [00:53<11:25,  1.31s/it]Processing Batches:   7%|▋         | 41/563 [00:54<11:28,  1.32s/it]Processing Batches:   7%|▋         | 42/563 [00:56<11:26,  1.32s/it]Processing Batches:   8%|▊         | 43/563 [00:57<11:28,  1.32s/it]Processing Batches:   8%|▊         | 44/563 [00:58<11:26,  1.32s/it]Processing Batches:   8%|▊         | 45/563 [01:00<11:25,  1.32s/it]Processing Batches:   8%|▊         | 46/563 [01:01<11:20,  1.32s/it]Processing Batches:   8%|▊         | 47/563 [01:02<11:16,  1.31s/it]Processing Batches:   9%|▊         | 48/563 [01:03<11:14,  1.31s/it]Processing Batches:   9%|▊         | 49/563 [01:05<11:17,  1.32s/it]Processing Batches:   9%|▉         | 50/563 [01:06<11:14,  1.31s/it]Processing Batches:   9%|▉         | 51/563 [01:07<11:09,  1.31s/it]Processing Batches:   9%|▉         | 52/563 [01:09<11:12,  1.32s/it]Processing Batches:   9%|▉         | 53/563 [01:10<11:08,  1.31s/it]Processing Batches:  10%|▉         | 54/563 [01:11<11:03,  1.30s/it]Processing Batches:  10%|▉         | 55/563 [01:13<11:03,  1.31s/it]Processing Batches:  10%|▉         | 56/563 [01:14<11:05,  1.31s/it]Processing Batches:  10%|█         | 57/563 [01:15<11:03,  1.31s/it]Processing Batches:  10%|█         | 58/563 [01:17<11:10,  1.33s/it]Processing Batches:  10%|█         | 59/563 [01:18<11:02,  1.31s/it]Processing Batches:  11%|█         | 60/563 [01:19<10:55,  1.30s/it]Processing Batches:  11%|█         | 61/563 [01:21<10:55,  1.31s/it]Processing Batches:  11%|█         | 62/563 [01:22<10:57,  1.31s/it]Processing Batches:  11%|█         | 63/563 [01:23<10:53,  1.31s/it]Processing Batches:  11%|█▏        | 64/563 [01:24<10:55,  1.31s/it]Processing Batches:  12%|█▏        | 65/563 [01:26<10:52,  1.31s/it]Processing Batches:  12%|█▏        | 66/563 [01:27<10:43,  1.29s/it]Processing Batches:  12%|█▏        | 67/563 [01:28<10:48,  1.31s/it]Processing Batches:  12%|█▏        | 68/563 [01:30<10:47,  1.31s/it]Processing Batches:  12%|█▏        | 69/563 [01:31<10:41,  1.30s/it]Processing Batches:  12%|█▏        | 70/563 [01:32<10:44,  1.31s/it]Processing Batches:  13%|█▎        | 71/563 [01:34<10:49,  1.32s/it]Processing Batches:  13%|█▎        | 72/563 [01:35<10:50,  1.32s/it]Processing Batches:  13%|█▎        | 73/563 [01:36<10:41,  1.31s/it]Processing Batches:  13%|█▎        | 74/563 [01:38<10:38,  1.30s/it]Processing Batches:  13%|█▎        | 75/563 [01:39<10:37,  1.31s/it]Processing Batches:  13%|█▎        | 76/563 [01:40<10:39,  1.31s/it]Processing Batches:  14%|█▎        | 77/563 [01:42<10:39,  1.32s/it]Processing Batches:  14%|█▍        | 78/563 [01:43<10:40,  1.32s/it]Processing Batches:  14%|█▍        | 79/563 [01:44<09:33,  1.18s/it]Processing Batches:  14%|█▍        | 80/563 [01:45<08:41,  1.08s/it]Processing Batches:  14%|█▍        | 81/563 [01:45<08:02,  1.00s/it]Processing Batches:  15%|█▍        | 82/563 [01:46<07:33,  1.06it/s]Processing Batches:  15%|█▍        | 83/563 [01:47<07:14,  1.10it/s]Processing Batches:  15%|█▍        | 84/563 [01:48<07:04,  1.13it/s]Processing Batches:  15%|█▌        | 85/563 [01:49<06:53,  1.16it/s]Processing Batches:  15%|█▌        | 86/563 [01:49<06:45,  1.18it/s]Processing Batches:  15%|█▌        | 87/563 [01:50<06:40,  1.19it/s]Processing Batches:  16%|█▌        | 88/563 [01:51<06:35,  1.20it/s]Processing Batches:  16%|█▌        | 89/563 [01:52<06:31,  1.21it/s]Processing Batches:  16%|█▌        | 90/563 [01:53<06:29,  1.21it/s]Processing Batches:  16%|█▌        | 91/563 [01:54<06:27,  1.22it/s]Processing Batches:  16%|█▋        | 92/563 [01:54<06:25,  1.22it/s]Processing Batches:  17%|█▋        | 93/563 [01:55<06:22,  1.23it/s]Processing Batches:  17%|█▋        | 94/563 [01:56<06:21,  1.23it/s]Processing Batches:  17%|█▋        | 95/563 [01:57<06:19,  1.23it/s]Processing Batches:  17%|█▋        | 96/563 [01:58<06:18,  1.23it/s]Processing Batches:  17%|█▋        | 97/563 [01:58<06:17,  1.23it/s]Processing Batches:  17%|█▋        | 98/563 [01:59<06:17,  1.23it/s]Processing Batches:  18%|█▊        | 99/563 [02:00<06:16,  1.23it/s]Processing Batches:  18%|█▊        | 100/563 [02:01<06:15,  1.23it/s]Processing Batches:  18%|█▊        | 101/563 [02:02<06:14,  1.23it/s]Processing Batches:  18%|█▊        | 102/563 [02:02<06:12,  1.24it/s]Processing Batches:  18%|█▊        | 103/563 [02:03<06:11,  1.24it/s]Processing Batches:  18%|█▊        | 104/563 [02:04<06:11,  1.24it/s]Processing Batches:  19%|█▊        | 105/563 [02:05<06:11,  1.23it/s]Processing Batches:  19%|█▉        | 106/563 [02:06<06:10,  1.23it/s]Processing Batches:  19%|█▉        | 107/563 [02:07<06:09,  1.23it/s]Processing Batches:  19%|█▉        | 108/563 [02:07<06:08,  1.23it/s]Processing Batches:  19%|█▉        | 109/563 [02:08<06:08,  1.23it/s]Processing Batches:  20%|█▉        | 110/563 [02:09<06:07,  1.23it/s]Processing Batches:  20%|█▉        | 111/563 [02:10<06:03,  1.24it/s]Processing Batches:  20%|█▉        | 112/563 [02:11<06:04,  1.24it/s]Processing Batches:  20%|██        | 113/563 [02:11<06:06,  1.23it/s]Processing Batches:  20%|██        | 114/563 [02:12<06:05,  1.23it/s]Processing Batches:  20%|██        | 115/563 [02:13<06:03,  1.23it/s]Processing Batches:  21%|██        | 116/563 [02:14<06:02,  1.23it/s]Processing Batches:  21%|██        | 117/563 [02:15<06:08,  1.21it/s]Processing Batches:  21%|██        | 118/563 [02:15<06:06,  1.21it/s]Processing Batches:  21%|██        | 119/563 [02:16<06:05,  1.22it/s]Processing Batches:  21%|██▏       | 120/563 [02:17<06:02,  1.22it/s]Processing Batches:  21%|██▏       | 121/563 [02:18<05:58,  1.23it/s]Processing Batches:  22%|██▏       | 122/563 [02:19<05:55,  1.24it/s]Processing Batches:  22%|██▏       | 123/563 [02:20<05:58,  1.23it/s]Processing Batches:  22%|██▏       | 124/563 [02:20<05:57,  1.23it/s]Processing Batches:  22%|██▏       | 125/563 [02:21<05:54,  1.23it/s]Processing Batches:  22%|██▏       | 126/563 [02:22<05:52,  1.24it/s]Processing Batches:  23%|██▎       | 127/563 [02:23<05:51,  1.24it/s]Processing Batches:  23%|██▎       | 128/563 [02:24<05:51,  1.24it/s]Processing Batches:  23%|██▎       | 129/563 [02:24<05:52,  1.23it/s]Processing Batches:  23%|██▎       | 130/563 [02:25<05:51,  1.23it/s]Processing Batches:  23%|██▎       | 131/563 [02:26<05:48,  1.24it/s]Processing Batches:  23%|██▎       | 132/563 [02:27<05:47,  1.24it/s]Processing Batches:  24%|██▎       | 133/563 [02:28<05:48,  1.23it/s]Processing Batches:  24%|██▍       | 134/563 [02:28<05:47,  1.24it/s]Processing Batches:  24%|██▍       | 135/563 [02:29<05:46,  1.24it/s]Processing Batches:  24%|██▍       | 136/563 [02:30<05:44,  1.24it/s]Processing Batches:  24%|██▍       | 137/563 [02:31<05:43,  1.24it/s]Processing Batches:  25%|██▍       | 138/563 [02:32<05:43,  1.24it/s]Processing Batches:  25%|██▍       | 139/563 [02:32<05:41,  1.24it/s]Processing Batches:  25%|██▍       | 140/563 [02:33<05:40,  1.24it/s]Processing Batches:  25%|██▌       | 141/563 [02:34<05:39,  1.24it/s]Processing Batches:  25%|██▌       | 142/563 [02:35<05:39,  1.24it/s]Processing Batches:  25%|██▌       | 143/563 [02:36<05:39,  1.24it/s]Processing Batches:  26%|██▌       | 144/563 [02:36<05:39,  1.23it/s]Processing Batches:  26%|██▌       | 145/563 [02:37<05:41,  1.23it/s]Processing Batches:  26%|██▌       | 146/563 [02:38<05:38,  1.23it/s]Processing Batches:  26%|██▌       | 147/563 [02:39<05:38,  1.23it/s]Processing Batches:  26%|██▋       | 148/563 [02:40<05:37,  1.23it/s]Processing Batches:  26%|██▋       | 149/563 [02:41<05:34,  1.24it/s]Processing Batches:  27%|██▋       | 150/563 [02:41<05:33,  1.24it/s]Processing Batches:  27%|██▋       | 151/563 [02:42<05:29,  1.25it/s]Processing Batches:  27%|██▋       | 152/563 [02:43<05:29,  1.25it/s]Processing Batches:  27%|██▋       | 153/563 [02:44<05:30,  1.24it/s]Processing Batches:  27%|██▋       | 154/563 [02:45<05:31,  1.23it/s]Processing Batches:  28%|██▊       | 155/563 [02:45<05:30,  1.23it/s]Processing Batches:  28%|██▊       | 156/563 [02:46<05:29,  1.24it/s]Processing Batches:  28%|██▊       | 157/563 [02:47<05:27,  1.24it/s]Processing Batches:  28%|██▊       | 158/563 [02:48<05:27,  1.24it/s]Processing Batches:  28%|██▊       | 159/563 [02:49<05:26,  1.24it/s]Processing Batches:  28%|██▊       | 160/563 [02:49<05:26,  1.23it/s]Processing Batches:  29%|██▊       | 161/563 [02:50<05:25,  1.23it/s]Processing Batches:  29%|██▉       | 162/563 [02:51<05:27,  1.22it/s]Processing Batches:  29%|██▉       | 163/563 [02:52<05:26,  1.22it/s]Processing Batches:  29%|██▉       | 164/563 [02:53<05:23,  1.23it/s]Processing Batches:  29%|██▉       | 165/563 [02:53<05:21,  1.24it/s]Processing Batches:  29%|██▉       | 166/563 [02:54<05:19,  1.24it/s]Processing Batches:  30%|██▉       | 167/563 [02:55<05:20,  1.24it/s]Processing Batches:  30%|██▉       | 168/563 [02:56<05:20,  1.23it/s]Processing Batches:  30%|███       | 169/563 [02:57<05:19,  1.23it/s]Processing Batches:  30%|███       | 170/563 [02:58<05:18,  1.23it/s]Processing Batches:  30%|███       | 171/563 [02:58<05:17,  1.24it/s]Processing Batches:  31%|███       | 172/563 [02:59<05:17,  1.23it/s]Processing Batches:  31%|███       | 173/563 [03:00<05:15,  1.24it/s]Processing Batches:  31%|███       | 174/563 [03:01<05:13,  1.24it/s]Processing Batches:  31%|███       | 175/563 [03:02<05:12,  1.24it/s]Processing Batches:  31%|███▏      | 176/563 [03:02<05:11,  1.24it/s]Processing Batches:  31%|███▏      | 177/563 [03:03<05:10,  1.24it/s]Processing Batches:  32%|███▏      | 178/563 [03:04<05:11,  1.24it/s]Processing Batches:  32%|███▏      | 179/563 [03:05<05:11,  1.23it/s]Processing Batches:  32%|███▏      | 180/563 [03:06<05:09,  1.24it/s]Processing Batches:  32%|███▏      | 181/563 [03:06<05:08,  1.24it/s]Processing Batches:  32%|███▏      | 182/563 [03:07<05:06,  1.24it/s]Processing Batches:  33%|███▎      | 183/563 [03:08<05:07,  1.24it/s]Processing Batches:  33%|███▎      | 184/563 [03:09<05:06,  1.24it/s]Processing Batches:  33%|███▎      | 185/563 [03:10<05:06,  1.23it/s]Processing Batches:  33%|███▎      | 186/563 [03:10<05:05,  1.23it/s]Processing Batches:  33%|███▎      | 187/563 [03:11<05:05,  1.23it/s]Processing Batches:  33%|███▎      | 188/563 [03:12<05:05,  1.23it/s]Processing Batches:  34%|███▎      | 189/563 [03:13<05:04,  1.23it/s]Processing Batches:  34%|███▎      | 190/563 [03:14<05:03,  1.23it/s]Processing Batches:  34%|███▍      | 191/563 [03:15<05:07,  1.21it/s]Processing Batches:  34%|███▍      | 192/563 [03:15<05:06,  1.21it/s]Processing Batches:  34%|███▍      | 193/563 [03:16<05:02,  1.22it/s]Processing Batches:  34%|███▍      | 194/563 [03:17<05:01,  1.22it/s]Processing Batches:  35%|███▍      | 195/563 [03:18<05:00,  1.22it/s]Processing Batches:  35%|███▍      | 196/563 [03:19<04:59,  1.23it/s]Processing Batches:  35%|███▍      | 197/563 [03:19<04:58,  1.23it/s]Processing Batches:  35%|███▌      | 198/563 [03:20<04:57,  1.23it/s]Processing Batches:  35%|███▌      | 199/563 [03:21<04:55,  1.23it/s]Processing Batches:  36%|███▌      | 200/563 [03:22<04:58,  1.22it/s]Processing Batches:  36%|███▌      | 201/563 [03:23<04:52,  1.24it/s]Processing Batches:  36%|███▌      | 202/563 [03:24<04:53,  1.23it/s]Processing Batches:  36%|███▌      | 203/563 [03:24<04:54,  1.22it/s]Processing Batches:  36%|███▌      | 204/563 [03:25<04:53,  1.23it/s]Processing Batches:  36%|███▋      | 205/563 [03:26<04:51,  1.23it/s]Processing Batches:  37%|███▋      | 206/563 [03:27<04:50,  1.23it/s]Processing Batches:  37%|███▋      | 207/563 [03:28<04:49,  1.23it/s]Processing Batches:  37%|███▋      | 208/563 [03:28<04:48,  1.23it/s]Processing Batches:  37%|███▋      | 209/563 [03:29<04:46,  1.23it/s]Processing Batches:  37%|███▋      | 210/563 [03:30<04:45,  1.24it/s]Processing Batches:  37%|███▋      | 211/563 [03:31<04:46,  1.23it/s]Processing Batches:  38%|███▊      | 212/563 [03:32<04:45,  1.23it/s]Processing Batches:  38%|███▊      | 213/563 [03:32<04:44,  1.23it/s]Processing Batches:  38%|███▊      | 214/563 [03:33<04:43,  1.23it/s]Processing Batches:  38%|███▊      | 215/563 [03:34<04:42,  1.23it/s]Processing Batches:  38%|███▊      | 216/563 [03:35<04:41,  1.23it/s]Processing Batches:  39%|███▊      | 217/563 [03:36<04:38,  1.24it/s]Processing Batches:  39%|███▊      | 218/563 [03:37<04:38,  1.24it/s]Processing Batches:  39%|███▉      | 219/563 [03:37<04:38,  1.24it/s]Processing Batches:  39%|███▉      | 220/563 [03:38<04:37,  1.24it/s]Processing Batches:  39%|███▉      | 221/563 [03:39<04:37,  1.23it/s]Processing Batches:  39%|███▉      | 222/563 [03:40<04:37,  1.23it/s]Processing Batches:  40%|███▉      | 223/563 [03:41<04:36,  1.23it/s]Processing Batches:  40%|███▉      | 224/563 [03:41<04:35,  1.23it/s]Processing Batches:  40%|███▉      | 225/563 [03:42<04:34,  1.23it/s]Processing Batches:  40%|████      | 226/563 [03:43<04:32,  1.24it/s]Processing Batches:  40%|████      | 227/563 [03:44<04:31,  1.24it/s]Processing Batches:  40%|████      | 228/563 [03:45<04:32,  1.23it/s]Processing Batches:  41%|████      | 229/563 [03:45<04:31,  1.23it/s]Processing Batches:  41%|████      | 230/563 [03:46<04:29,  1.24it/s]Processing Batches:  41%|████      | 231/563 [03:47<04:28,  1.24it/s]Processing Batches:  41%|████      | 232/563 [03:48<04:28,  1.23it/s]Processing Batches:  41%|████▏     | 233/563 [03:49<04:27,  1.23it/s]Processing Batches:  42%|████▏     | 234/563 [03:49<04:26,  1.23it/s]Processing Batches:  42%|████▏     | 235/563 [03:50<04:26,  1.23it/s]Processing Batches:  42%|████▏     | 236/563 [03:51<04:24,  1.24it/s]Processing Batches:  42%|████▏     | 237/563 [03:52<04:23,  1.24it/s]Processing Batches:  42%|████▏     | 238/563 [03:53<04:22,  1.24it/s]Processing Batches:  42%|████▏     | 239/563 [03:54<04:23,  1.23it/s]Processing Batches:  43%|████▎     | 240/563 [03:54<04:24,  1.22it/s]Processing Batches:  43%|████▎     | 241/563 [03:55<04:21,  1.23it/s]Processing Batches:  43%|████▎     | 242/563 [03:56<04:20,  1.23it/s]Processing Batches:  43%|████▎     | 243/563 [03:57<04:20,  1.23it/s]Processing Batches:  43%|████▎     | 244/563 [03:58<04:18,  1.23it/s]Processing Batches:  44%|████▎     | 245/563 [03:58<04:18,  1.23it/s]Processing Batches:  44%|████▎     | 246/563 [03:59<04:16,  1.23it/s]Processing Batches:  44%|████▍     | 247/563 [04:00<04:16,  1.23it/s]Processing Batches:  44%|████▍     | 248/563 [04:01<04:15,  1.23it/s]Processing Batches:  44%|████▍     | 249/563 [04:02<04:14,  1.23it/s]Processing Batches:  44%|████▍     | 250/563 [04:02<04:14,  1.23it/s]Processing Batches:  45%|████▍     | 251/563 [04:03<04:12,  1.24it/s]Processing Batches:  45%|████▍     | 252/563 [04:04<04:11,  1.24it/s]Processing Batches:  45%|████▍     | 253/563 [04:05<04:11,  1.23it/s]Processing Batches:  45%|████▌     | 254/563 [04:06<04:09,  1.24it/s]Processing Batches:  45%|████▌     | 255/563 [04:07<04:09,  1.24it/s]Processing Batches:  45%|████▌     | 256/563 [04:07<04:08,  1.24it/s]Processing Batches:  46%|████▌     | 257/563 [04:08<04:06,  1.24it/s]Processing Batches:  46%|████▌     | 258/563 [04:09<04:07,  1.23it/s]Processing Batches:  46%|████▌     | 259/563 [04:10<04:07,  1.23it/s]Processing Batches:  46%|████▌     | 260/563 [04:11<04:05,  1.23it/s]Processing Batches:  46%|████▋     | 261/563 [04:11<04:04,  1.23it/s]Processing Batches:  47%|████▋     | 262/563 [04:12<04:03,  1.23it/s]Processing Batches:  47%|████▋     | 263/563 [04:13<04:03,  1.23it/s]Processing Batches:  47%|████▋     | 264/563 [04:14<04:02,  1.23it/s]Processing Batches:  47%|████▋     | 265/563 [04:15<04:03,  1.22it/s]Processing Batches:  47%|████▋     | 266/563 [04:15<04:01,  1.23it/s]Processing Batches:  47%|████▋     | 267/563 [04:16<04:01,  1.23it/s]Processing Batches:  48%|████▊     | 268/563 [04:17<03:59,  1.23it/s]Processing Batches:  48%|████▊     | 269/563 [04:18<03:58,  1.23it/s]Processing Batches:  48%|████▊     | 270/563 [04:19<03:57,  1.23it/s]Processing Batches:  48%|████▊     | 271/563 [04:20<03:56,  1.23it/s]Processing Batches:  48%|████▊     | 272/563 [04:20<03:55,  1.24it/s]Processing Batches:  48%|████▊     | 273/563 [04:21<03:54,  1.24it/s]Processing Batches:  49%|████▊     | 274/563 [04:22<03:54,  1.23it/s]Processing Batches:  49%|████▉     | 275/563 [04:23<03:53,  1.23it/s]Processing Batches:  49%|████▉     | 276/563 [04:24<03:53,  1.23it/s]Processing Batches:  49%|████▉     | 277/563 [04:24<03:56,  1.21it/s]Processing Batches:  49%|████▉     | 278/563 [04:25<03:54,  1.22it/s]Processing Batches:  50%|████▉     | 279/563 [04:26<03:52,  1.22it/s]Processing Batches:  50%|████▉     | 280/563 [04:27<03:50,  1.23it/s]Processing Batches:  50%|████▉     | 281/563 [04:28<03:51,  1.22it/s]Processing Batches:  50%|█████     | 282/563 [04:28<03:49,  1.22it/s]Processing Batches:  50%|█████     | 283/563 [04:29<03:48,  1.22it/s]Processing Batches:  50%|█████     | 284/563 [04:30<03:47,  1.23it/s]Processing Batches:  51%|█████     | 285/563 [04:31<03:45,  1.23it/s]Processing Batches:  51%|█████     | 286/563 [04:32<03:44,  1.23it/s]Processing Batches:  51%|█████     | 287/563 [04:33<03:43,  1.23it/s]Processing Batches:  51%|█████     | 288/563 [04:33<03:42,  1.24it/s]Processing Batches:  51%|█████▏    | 289/563 [04:34<03:41,  1.24it/s]Processing Batches:  52%|█████▏    | 290/563 [04:35<03:41,  1.24it/s]Processing Batches:  52%|█████▏    | 291/563 [04:36<03:41,  1.23it/s]Processing Batches:  52%|█████▏    | 292/563 [04:37<03:40,  1.23it/s]Processing Batches:  52%|█████▏    | 293/563 [04:37<03:39,  1.23it/s]Processing Batches:  52%|█████▏    | 294/563 [04:38<03:37,  1.23it/s]Processing Batches:  52%|█████▏    | 295/563 [04:39<03:37,  1.23it/s]Processing Batches:  53%|█████▎    | 296/563 [04:40<03:36,  1.23it/s]Processing Batches:  53%|█████▎    | 297/563 [04:41<03:35,  1.23it/s]Processing Batches:  53%|█████▎    | 298/563 [04:41<03:35,  1.23it/s]Processing Batches:  53%|█████▎    | 299/563 [04:42<03:34,  1.23it/s]Processing Batches:  53%|█████▎    | 300/563 [04:43<03:33,  1.23it/s]Processing Batches:  53%|█████▎    | 301/563 [04:44<03:33,  1.22it/s]Processing Batches:  54%|█████▎    | 302/563 [04:45<03:33,  1.22it/s]Processing Batches:  54%|█████▍    | 303/563 [04:46<03:33,  1.22it/s]Processing Batches:  54%|█████▍    | 304/563 [04:46<03:32,  1.22it/s]Processing Batches:  54%|█████▍    | 305/563 [04:47<03:30,  1.23it/s]Processing Batches:  54%|█████▍    | 306/563 [04:48<03:29,  1.23it/s]Processing Batches:  55%|█████▍    | 307/563 [04:49<03:29,  1.22it/s]Processing Batches:  55%|█████▍    | 308/563 [04:50<03:27,  1.23it/s]Processing Batches:  55%|█████▍    | 309/563 [04:50<03:27,  1.23it/s]Processing Batches:  55%|█████▌    | 310/563 [04:51<03:26,  1.23it/s]Processing Batches:  55%|█████▌    | 311/563 [04:52<03:24,  1.23it/s]Processing Batches:  55%|█████▌    | 312/563 [04:53<03:24,  1.23it/s]Processing Batches:  56%|█████▌    | 313/563 [04:54<03:24,  1.22it/s]Processing Batches:  56%|█████▌    | 314/563 [04:55<03:24,  1.22it/s]Processing Batches:  56%|█████▌    | 315/563 [04:55<03:23,  1.22it/s]Processing Batches:  56%|█████▌    | 316/563 [04:56<03:25,  1.20it/s]Processing Batches:  56%|█████▋    | 317/563 [04:57<03:24,  1.20it/s]Processing Batches:  56%|█████▋    | 318/563 [04:58<03:22,  1.21it/s]Processing Batches:  57%|█████▋    | 319/563 [04:59<03:21,  1.21it/s]Processing Batches:  57%|█████▋    | 320/563 [04:59<03:18,  1.22it/s]Processing Batches:  57%|█████▋    | 321/563 [05:00<03:17,  1.23it/s]Processing Batches:  57%|█████▋    | 322/563 [05:01<03:16,  1.23it/s]Processing Batches:  57%|█████▋    | 323/563 [05:02<03:15,  1.22it/s]Processing Batches:  58%|█████▊    | 324/563 [05:03<03:15,  1.23it/s]Processing Batches:  58%|█████▊    | 325/563 [05:04<03:15,  1.22it/s]Processing Batches:  58%|█████▊    | 326/563 [05:04<03:16,  1.21it/s]Processing Batches:  58%|█████▊    | 327/563 [05:05<03:14,  1.21it/s]Processing Batches:  58%|█████▊    | 328/563 [05:06<03:13,  1.22it/s]Processing Batches:  58%|█████▊    | 329/563 [05:07<03:12,  1.22it/s]Processing Batches:  59%|█████▊    | 330/563 [05:08<03:10,  1.22it/s]Processing Batches:  59%|█████▉    | 331/563 [05:09<03:09,  1.22it/s]Processing Batches:  59%|█████▉    | 332/563 [05:09<03:08,  1.23it/s]Processing Batches:  59%|█████▉    | 333/563 [05:10<03:07,  1.23it/s]Processing Batches:  59%|█████▉    | 334/563 [05:11<03:07,  1.22it/s]Processing Batches:  60%|█████▉    | 335/563 [05:12<03:05,  1.23it/s]Processing Batches:  60%|█████▉    | 336/563 [05:13<03:05,  1.22it/s]Processing Batches:  60%|█████▉    | 337/563 [05:13<03:03,  1.23it/s]Processing Batches:  60%|██████    | 338/563 [05:14<03:02,  1.23it/s]Processing Batches:  60%|██████    | 339/563 [05:15<03:01,  1.23it/s]Processing Batches:  60%|██████    | 340/563 [05:16<03:01,  1.23it/s]Processing Batches:  61%|██████    | 341/563 [05:17<03:00,  1.23it/s]Processing Batches:  61%|██████    | 342/563 [05:17<02:59,  1.23it/s]Processing Batches:  61%|██████    | 343/563 [05:18<02:59,  1.23it/s]Processing Batches:  61%|██████    | 344/563 [05:19<02:58,  1.23it/s]Processing Batches:  61%|██████▏   | 345/563 [05:20<02:57,  1.23it/s]Processing Batches:  61%|██████▏   | 346/563 [05:21<02:57,  1.22it/s]Processing Batches:  62%|██████▏   | 347/563 [05:22<02:55,  1.23it/s]Processing Batches:  62%|██████▏   | 348/563 [05:22<02:55,  1.23it/s]Processing Batches:  62%|██████▏   | 349/563 [05:23<02:54,  1.23it/s]Processing Batches:  62%|██████▏   | 350/563 [05:24<02:53,  1.23it/s]Processing Batches:  62%|██████▏   | 351/563 [05:25<02:53,  1.22it/s]Processing Batches:  63%|██████▎   | 352/563 [05:26<02:52,  1.22it/s]Processing Batches:  63%|██████▎   | 353/563 [05:26<02:51,  1.23it/s]Processing Batches:  63%|██████▎   | 354/563 [05:27<02:51,  1.22it/s]Processing Batches:  63%|██████▎   | 355/563 [05:28<02:50,  1.22it/s]Processing Batches:  63%|██████▎   | 356/563 [05:29<02:49,  1.22it/s]Processing Batches:  63%|██████▎   | 357/563 [05:30<02:48,  1.22it/s]Processing Batches:  64%|██████▎   | 358/563 [05:31<02:47,  1.23it/s]Processing Batches:  64%|██████▍   | 359/563 [05:31<02:46,  1.23it/s]Processing Batches:  64%|██████▍   | 360/563 [05:32<02:45,  1.22it/s]Processing Batches:  64%|██████▍   | 361/563 [05:33<02:45,  1.22it/s]Processing Batches:  64%|██████▍   | 362/563 [05:34<02:43,  1.23it/s]Processing Batches:  64%|██████▍   | 363/563 [05:35<02:44,  1.22it/s]Processing Batches:  65%|██████▍   | 364/563 [05:35<02:41,  1.23it/s]Processing Batches:  65%|██████▍   | 365/563 [05:36<02:41,  1.23it/s]Processing Batches:  65%|██████▌   | 366/563 [05:37<02:40,  1.23it/s]Processing Batches:  65%|██████▌   | 367/563 [05:38<02:40,  1.22it/s]Processing Batches:  65%|██████▌   | 368/563 [05:39<02:39,  1.22it/s]Processing Batches:  66%|██████▌   | 369/563 [05:40<02:38,  1.22it/s]Processing Batches:  66%|██████▌   | 370/563 [05:40<02:37,  1.23it/s]Processing Batches:  66%|██████▌   | 371/563 [05:41<02:36,  1.23it/s]Processing Batches:  66%|██████▌   | 372/563 [05:42<02:34,  1.23it/s]Processing Batches:  66%|██████▋   | 373/563 [05:43<02:33,  1.24it/s]Processing Batches:  66%|██████▋   | 374/563 [05:44<02:33,  1.24it/s]Processing Batches:  67%|██████▋   | 375/563 [05:44<02:33,  1.22it/s]Processing Batches:  67%|██████▋   | 376/563 [05:45<02:31,  1.23it/s]Processing Batches:  67%|██████▋   | 377/563 [05:46<02:30,  1.24it/s]Processing Batches:  67%|██████▋   | 378/563 [05:47<02:29,  1.24it/s]Processing Batches:  67%|██████▋   | 379/563 [05:48<02:29,  1.23it/s]Processing Batches:  67%|██████▋   | 380/563 [05:48<02:28,  1.23it/s]Processing Batches:  68%|██████▊   | 381/563 [05:49<02:27,  1.23it/s]Processing Batches:  68%|██████▊   | 382/563 [05:50<02:27,  1.22it/s]Processing Batches:  68%|██████▊   | 383/563 [05:51<02:26,  1.23it/s]Processing Batches:  68%|██████▊   | 384/563 [05:52<02:26,  1.22it/s]Processing Batches:  68%|██████▊   | 385/563 [05:53<02:25,  1.23it/s]Processing Batches:  69%|██████▊   | 386/563 [05:53<02:24,  1.23it/s]Processing Batches:  69%|██████▊   | 387/563 [05:54<02:23,  1.23it/s]Processing Batches:  69%|██████▉   | 388/563 [05:55<02:22,  1.23it/s]Processing Batches:  69%|██████▉   | 389/563 [05:56<02:22,  1.22it/s]Processing Batches:  69%|██████▉   | 390/563 [05:57<02:21,  1.22it/s]Processing Batches:  69%|██████▉   | 391/563 [05:57<02:21,  1.22it/s]Processing Batches:  70%|██████▉   | 392/563 [05:58<02:20,  1.22it/s]Processing Batches:  70%|██████▉   | 393/563 [05:59<02:19,  1.22it/s]Processing Batches:  70%|██████▉   | 394/563 [06:00<02:18,  1.22it/s]Processing Batches:  70%|███████   | 395/563 [06:01<02:17,  1.22it/s]Processing Batches:  70%|███████   | 396/563 [06:02<02:17,  1.22it/s]Processing Batches:  71%|███████   | 397/563 [06:02<02:15,  1.22it/s]Processing Batches:  71%|███████   | 398/563 [06:03<02:14,  1.22it/s]Processing Batches:  71%|███████   | 399/563 [06:04<02:14,  1.22it/s]Processing Batches:  71%|███████   | 400/563 [06:05<02:13,  1.22it/s]Processing Batches:  71%|███████   | 401/563 [06:06<02:12,  1.22it/s]Processing Batches:  71%|███████▏  | 402/563 [06:06<02:11,  1.23it/s]Processing Batches:  72%|███████▏  | 403/563 [06:07<02:10,  1.23it/s]Processing Batches:  72%|███████▏  | 404/563 [06:08<02:10,  1.22it/s]Processing Batches:  72%|███████▏  | 405/563 [06:09<02:09,  1.22it/s]Processing Batches:  72%|███████▏  | 406/563 [06:10<02:08,  1.22it/s]Processing Batches:  72%|███████▏  | 407/563 [06:11<02:07,  1.22it/s]Processing Batches:  72%|███████▏  | 408/563 [06:11<02:07,  1.22it/s]Processing Batches:  73%|███████▎  | 409/563 [06:12<02:06,  1.22it/s]Processing Batches:  73%|███████▎  | 410/563 [06:13<02:05,  1.22it/s]Processing Batches:  73%|███████▎  | 411/563 [06:14<02:04,  1.22it/s]Processing Batches:  73%|███████▎  | 412/563 [06:15<02:04,  1.21it/s]Processing Batches:  73%|███████▎  | 413/563 [06:15<02:03,  1.21it/s]Processing Batches:  74%|███████▎  | 414/563 [06:16<02:02,  1.21it/s]Processing Batches:  74%|███████▎  | 415/563 [06:17<02:01,  1.21it/s]Processing Batches:  74%|███████▍  | 416/563 [06:18<02:00,  1.22it/s]Processing Batches:  74%|███████▍  | 417/563 [06:19<01:59,  1.22it/s]Processing Batches:  74%|███████▍  | 418/563 [06:20<01:59,  1.21it/s]Processing Batches:  74%|███████▍  | 419/563 [06:20<01:58,  1.22it/s]Processing Batches:  75%|███████▍  | 420/563 [06:21<01:56,  1.22it/s]Processing Batches:  75%|███████▍  | 421/563 [06:22<01:57,  1.21it/s]Processing Batches:  75%|███████▍  | 422/563 [06:23<01:56,  1.21it/s]Processing Batches:  75%|███████▌  | 423/563 [06:24<01:55,  1.21it/s]Processing Batches:  75%|███████▌  | 424/563 [06:25<01:55,  1.21it/s]Processing Batches:  75%|███████▌  | 425/563 [06:25<01:54,  1.21it/s]Processing Batches:  76%|███████▌  | 426/563 [06:26<01:52,  1.21it/s]Processing Batches:  76%|███████▌  | 427/563 [06:27<01:52,  1.21it/s]Processing Batches:  76%|███████▌  | 428/563 [06:28<01:51,  1.21it/s]Processing Batches:  76%|███████▌  | 429/563 [06:29<01:50,  1.21it/s]Processing Batches:  76%|███████▋  | 430/563 [06:29<01:49,  1.22it/s]Processing Batches:  77%|███████▋  | 431/563 [06:30<01:49,  1.20it/s]Processing Batches:  77%|███████▋  | 432/563 [06:31<01:48,  1.21it/s]Processing Batches:  77%|███████▋  | 433/563 [06:32<01:47,  1.21it/s]Processing Batches:  77%|███████▋  | 434/563 [06:33<01:46,  1.21it/s]Processing Batches:  77%|███████▋  | 435/563 [06:34<01:45,  1.21it/s]Processing Batches:  77%|███████▋  | 436/563 [06:34<01:45,  1.21it/s]Processing Batches:  78%|███████▊  | 437/563 [06:35<01:43,  1.21it/s]Processing Batches:  78%|███████▊  | 438/563 [06:36<01:43,  1.21it/s]Processing Batches:  78%|███████▊  | 439/563 [06:37<01:41,  1.22it/s]Processing Batches:  78%|███████▊  | 440/563 [06:38<01:41,  1.22it/s]Processing Batches:  78%|███████▊  | 441/563 [06:39<01:39,  1.22it/s]Processing Batches:  79%|███████▊  | 442/563 [06:39<01:39,  1.22it/s]Processing Batches:  79%|███████▊  | 443/563 [06:40<01:38,  1.22it/s]Processing Batches:  79%|███████▉  | 444/563 [06:41<01:37,  1.22it/s]Processing Batches:  79%|███████▉  | 445/563 [06:42<01:36,  1.22it/s]Processing Batches:  79%|███████▉  | 446/563 [06:43<01:35,  1.22it/s]Processing Batches:  79%|███████▉  | 447/563 [06:43<01:35,  1.22it/s]Processing Batches:  80%|███████▉  | 448/563 [06:44<01:34,  1.22it/s]Processing Batches:  80%|███████▉  | 449/563 [06:45<01:33,  1.22it/s]Processing Batches:  80%|███████▉  | 450/563 [06:46<01:32,  1.22it/s]Processing Batches:  80%|████████  | 451/563 [06:47<01:31,  1.22it/s]Processing Batches:  80%|████████  | 452/563 [06:48<01:31,  1.22it/s]Processing Batches:  80%|████████  | 453/563 [06:48<01:30,  1.22it/s]Processing Batches:  81%|████████  | 454/563 [06:49<01:29,  1.22it/s]Processing Batches:  81%|████████  | 455/563 [06:50<01:28,  1.22it/s]Processing Batches:  81%|████████  | 456/563 [06:51<01:28,  1.21it/s]Processing Batches:  81%|████████  | 457/563 [06:52<01:27,  1.21it/s]Processing Batches:  81%|████████▏ | 458/563 [06:53<01:26,  1.21it/s]Processing Batches:  82%|████████▏ | 459/563 [06:53<01:25,  1.22it/s]Processing Batches:  82%|████████▏ | 460/563 [06:54<01:24,  1.22it/s]Processing Batches:  82%|████████▏ | 461/563 [06:55<01:23,  1.22it/s]Processing Batches:  82%|████████▏ | 462/563 [06:56<01:22,  1.22it/s]Processing Batches:  82%|████████▏ | 463/563 [06:57<01:21,  1.22it/s]Processing Batches:  82%|████████▏ | 464/563 [06:57<01:21,  1.22it/s]Processing Batches:  83%|████████▎ | 465/563 [06:58<01:20,  1.22it/s]Processing Batches:  83%|████████▎ | 466/563 [06:59<01:19,  1.22it/s]Processing Batches:  83%|████████▎ | 467/563 [07:00<01:19,  1.21it/s]Processing Batches:  83%|████████▎ | 468/563 [07:01<01:18,  1.22it/s]Processing Batches:  83%|████████▎ | 469/563 [07:02<01:19,  1.19it/s]Processing Batches:  83%|████████▎ | 470/563 [07:02<01:17,  1.20it/s]Processing Batches:  84%|████████▎ | 471/563 [07:03<01:17,  1.19it/s]Processing Batches:  84%|████████▍ | 472/563 [07:04<01:15,  1.20it/s]Processing Batches:  84%|████████▍ | 473/563 [07:05<01:14,  1.21it/s]Processing Batches:  84%|████████▍ | 474/563 [07:06<01:13,  1.22it/s]Processing Batches:  84%|████████▍ | 475/563 [07:07<01:12,  1.21it/s]Processing Batches:  85%|████████▍ | 476/563 [07:07<01:11,  1.22it/s]Processing Batches:  85%|████████▍ | 477/563 [07:08<01:11,  1.21it/s]Processing Batches:  85%|████████▍ | 478/563 [07:09<01:10,  1.21it/s]Processing Batches:  85%|████████▌ | 479/563 [07:10<01:09,  1.21it/s]Processing Batches:  85%|████████▌ | 480/563 [07:11<01:08,  1.21it/s]Processing Batches:  85%|████████▌ | 481/563 [07:11<01:07,  1.22it/s]Processing Batches:  86%|████████▌ | 482/563 [07:12<01:06,  1.22it/s]Processing Batches:  86%|████████▌ | 483/563 [07:13<01:05,  1.23it/s]Processing Batches:  86%|████████▌ | 484/563 [07:14<01:04,  1.23it/s]Processing Batches:  86%|████████▌ | 485/563 [07:15<01:03,  1.22it/s]Processing Batches:  86%|████████▋ | 486/563 [07:16<01:02,  1.23it/s]Processing Batches:  87%|████████▋ | 487/563 [07:16<01:02,  1.23it/s]Processing Batches:  87%|████████▋ | 488/563 [07:17<01:01,  1.22it/s]Processing Batches:  87%|████████▋ | 489/563 [07:18<01:00,  1.23it/s]Processing Batches:  87%|████████▋ | 490/563 [07:19<00:59,  1.23it/s]Processing Batches:  87%|████████▋ | 491/563 [07:20<00:58,  1.23it/s]Processing Batches:  87%|████████▋ | 492/563 [07:20<00:57,  1.23it/s]Processing Batches:  88%|████████▊ | 493/563 [07:21<00:56,  1.24it/s]Processing Batches:  88%|████████▊ | 494/563 [07:22<00:56,  1.23it/s]Processing Batches:  88%|████████▊ | 495/563 [07:23<00:55,  1.23it/s]Processing Batches:  88%|████████▊ | 496/563 [07:24<00:54,  1.23it/s]Processing Batches:  88%|████████▊ | 497/563 [07:25<00:54,  1.22it/s]Processing Batches:  88%|████████▊ | 498/563 [07:25<00:53,  1.23it/s]Processing Batches:  89%|████████▊ | 499/563 [07:26<00:52,  1.23it/s]Processing Batches:  89%|████████▉ | 500/563 [07:27<00:51,  1.22it/s]Processing Batches:  89%|████████▉ | 501/563 [07:28<00:50,  1.22it/s]Processing Batches:  89%|████████▉ | 502/563 [07:29<00:49,  1.23it/s]Processing Batches:  89%|████████▉ | 503/563 [07:29<00:48,  1.22it/s]Processing Batches:  90%|████████▉ | 504/563 [07:30<00:47,  1.23it/s]Processing Batches:  90%|████████▉ | 505/563 [07:31<00:46,  1.23it/s]Processing Batches:  90%|████████▉ | 506/563 [07:32<00:46,  1.23it/s]Processing Batches:  90%|█████████ | 507/563 [07:33<00:46,  1.22it/s]Processing Batches:  90%|█████████ | 508/563 [07:33<00:44,  1.22it/s]Processing Batches:  90%|█████████ | 509/563 [07:34<00:44,  1.23it/s]Processing Batches:  91%|█████████ | 510/563 [07:35<00:43,  1.23it/s]Processing Batches:  91%|█████████ | 511/563 [07:36<00:42,  1.23it/s]Processing Batches:  91%|█████████ | 512/563 [07:37<00:41,  1.23it/s]Processing Batches:  91%|█████████ | 513/563 [07:38<00:40,  1.23it/s]Processing Batches:  91%|█████████▏| 514/563 [07:38<00:39,  1.23it/s]Processing Batches:  91%|█████████▏| 515/563 [07:39<00:39,  1.23it/s]Processing Batches:  92%|█████████▏| 516/563 [07:40<00:38,  1.23it/s]Processing Batches:  92%|█████████▏| 517/563 [07:41<00:37,  1.23it/s]Processing Batches:  92%|█████████▏| 518/563 [07:42<00:36,  1.23it/s]Processing Batches:  92%|█████████▏| 519/563 [07:42<00:35,  1.24it/s]Processing Batches:  92%|█████████▏| 520/563 [07:43<00:34,  1.24it/s]Processing Batches:  93%|█████████▎| 521/563 [07:44<00:33,  1.24it/s]Processing Batches:  93%|█████████▎| 522/563 [07:45<00:33,  1.24it/s]Processing Batches:  93%|█████████▎| 523/563 [07:46<00:32,  1.24it/s]Processing Batches:  93%|█████████▎| 524/563 [07:46<00:31,  1.24it/s]Processing Batches:  93%|█████████▎| 525/563 [07:47<00:30,  1.24it/s]Processing Batches:  93%|█████████▎| 526/563 [07:48<00:29,  1.23it/s]Processing Batches:  94%|█████████▎| 527/563 [07:49<00:29,  1.24it/s]Processing Batches:  94%|█████████▍| 528/563 [07:50<00:28,  1.23it/s]Processing Batches:  94%|█████████▍| 529/563 [07:51<00:27,  1.23it/s]Processing Batches:  94%|█████████▍| 530/563 [07:51<00:26,  1.23it/s]Processing Batches:  94%|█████████▍| 531/563 [07:52<00:26,  1.23it/s]Processing Batches:  94%|█████████▍| 532/563 [07:53<00:25,  1.23it/s]Processing Batches:  95%|█████████▍| 533/563 [07:54<00:24,  1.23it/s]Processing Batches:  95%|█████████▍| 534/563 [07:55<00:23,  1.22it/s]Processing Batches:  95%|█████████▌| 535/563 [07:55<00:22,  1.23it/s]Processing Batches:  95%|█████████▌| 536/563 [07:56<00:22,  1.23it/s]Processing Batches:  95%|█████████▌| 537/563 [07:57<00:21,  1.23it/s]Processing Batches:  96%|█████████▌| 538/563 [07:58<00:20,  1.23it/s]Processing Batches:  96%|█████████▌| 539/563 [07:59<00:19,  1.23it/s]Processing Batches:  96%|█████████▌| 540/563 [07:59<00:18,  1.22it/s]Processing Batches:  96%|█████████▌| 541/563 [08:00<00:17,  1.23it/s]Processing Batches:  96%|█████████▋| 542/563 [08:01<00:17,  1.23it/s]Processing Batches:  96%|█████████▋| 543/563 [08:02<00:16,  1.23it/s]Processing Batches:  97%|█████████▋| 544/563 [08:03<00:15,  1.23it/s]Processing Batches:  97%|█████████▋| 545/563 [08:04<00:14,  1.24it/s]Processing Batches:  97%|█████████▋| 546/563 [08:04<00:14,  1.20it/s]Processing Batches:  97%|█████████▋| 547/563 [08:05<00:13,  1.21it/s]Processing Batches:  97%|█████████▋| 548/563 [08:06<00:12,  1.22it/s]Processing Batches:  98%|█████████▊| 549/563 [08:07<00:11,  1.22it/s]Processing Batches:  98%|█████████▊| 550/563 [08:08<00:10,  1.23it/s]Processing Batches:  98%|█████████▊| 551/563 [08:08<00:09,  1.23it/s]Processing Batches:  98%|█████████▊| 552/563 [08:09<00:08,  1.23it/s]Processing Batches:  98%|█████████▊| 553/563 [08:10<00:08,  1.23it/s]Processing Batches:  98%|█████████▊| 554/563 [08:11<00:07,  1.24it/s]Processing Batches:  99%|█████████▊| 555/563 [08:12<00:06,  1.24it/s]Processing Batches:  99%|█████████▉| 556/563 [08:12<00:05,  1.24it/s]Processing Batches:  99%|█████████▉| 557/563 [08:13<00:04,  1.23it/s]Processing Batches:  99%|█████████▉| 558/563 [08:14<00:04,  1.23it/s]Processing Batches:  99%|█████████▉| 559/563 [08:15<00:03,  1.23it/s]Processing Batches:  99%|█████████▉| 560/563 [08:16<00:02,  1.23it/s]Processing Batches: 100%|█████████▉| 561/563 [08:17<00:01,  1.23it/s]Processing Batches: 100%|█████████▉| 562/563 [08:17<00:00,  1.23it/s]Processing Batches: 100%|██████████| 563/563 [08:18<00:00,  1.34it/s]Processing Batches: 100%|██████████| 563/563 [08:18<00:00,  1.13it/s]
+725.7s 35 104
+725.7s 36 205
+725.7s 37 [+] Len test: 2
+727.2s 38 [+] Text to image (10): Number=1
+727.2s 39 Top_positive: 3
+727.2s 40 Breaking_rank: 1
+727.2s 41 R@1: 70.0000
+727.2s 42 R@5: 80.0000
+727.2s 43 R@10: 80.0000
+727.2s 44 Med r: 1.0000
+727.2s 45 Mean r: 130.0000
+727.3s 46 [+] Len test: 205
+818.2s 47 [+] Text to image (1025): Number=0
+818.2s 48 Top_positive: 3
+818.2s 49 Breaking_rank: 1
+818.2s 50 R@1: 41.9512
+818.2s 51 R@5: 63.3171
+818.2s 52 R@10: 71.5122
+818.2s 53 Med r: 2.0000
+818.2s 54 Mean r: 103.7854
+818.2s 55 [+] Len test: 205
+1007.7s 56 [+] Text to image (1025): Number=1
+1007.7s 57 Top_positive: 3
+1007.7s 58 Breaking_rank: 1
+1007.7s 59 R@1: 45.2683
+1007.7s 60 R@5: 60.2927
+1007.7s 61 R@10: 67.4146
+1007.7s 62 Med r: 2.0000
+1007.7s 63 Mean r: 132.2137
+1007.7s 64 [+] Len test: 205
+1333.3s 65 [+] Text to image (1025): Number=2
+1333.3s 66 Top_positive: 3
+1333.3s 67 Breaking_rank: 1
+1333.3s 68 R@1: 46.2439
+1333.3s 69 R@5: 59.5122
+1333.3s 70 R@10: 64.9756
+1333.3s 71 Med r: 2.0000
+1333.3s 72 Mean r: 181.0878
+1333.3s 73 [+] Len test: 205
+1422.9s 74 [+] Text to image (1025): Number=0
+1422.9s 75 Top_positive: 3
+1422.9s 76 Breaking_rank: 5
+1422.9s 77 R@1: 41.9512
+1422.9s 78 R@5: 63.3171
+1422.9s 79 R@10: 71.5122
+1422.9s 80 Med r: 2.0000
+1422.9s 81 Mean r: 103.7854
+1422.9s 82 [+] Len test: 205
+1575.7s 83 [+] Text to image (1025): Number=1
+1575.7s 84 Top_positive: 3
+1575.7s 85 Breaking_rank: 5
+1575.7s 86 R@1: 41.9512
+1575.7s 87 R@5: 64.9756
+1575.7s 88 R@10: 70.0488
+1575.7s 89 Med r: 2.0000
+1575.7s 90 Mean r: 131.0566
+1575.7s 91 [+] Len test: 205
+1815.2s 92 [+] Text to image (1025): Number=2
+1815.2s 93 Top_positive: 3
+1815.2s 94 Breaking_rank: 5
+1815.2s 95 R@1: 41.9512
+1815.2s 96 R@5: 65.1707
+1815.2s 97 R@10: 68.7805
+1815.2s 98 Med r: 2.0000
+1815.2s 99 Mean r: 177.4976
+1815.2s 100 [+] Len test: 205
+1905.3s 101 [+] Text to image (1025): Number=0
+1905.3s 102 Top_positive: 3
+1905.3s 103 Breaking_rank: 10
+1905.3s 104 R@1: 41.9512
+1905.3s 105 R@5: 63.3171
+1905.3s 106 R@10: 71.5122
+1905.3s 107 Med r: 2.0000
+1905.3s 108 Mean r: 103.7854
+1905.3s 109 [+] Len test: 205
+2043.4s 110 [+] Text to image (1025): Number=1
+2043.4s 111 Top_positive: 3
+2043.4s 112 Breaking_rank: 10
+2043.4s 113 R@1: 41.9512
+2043.4s 114 R@5: 63.9024
+2043.4s 115 R@10: 74.4390
+2043.4s 116 Med r: 2.0000
+2043.4s 117 Mean r: 129.0420
+2043.4s 118 [+] Len test: 205
+2246.4s 119 [+] Text to image (1025): Number=2
+2246.4s 120 Top_positive: 3
+2246.4s 121 Breaking_rank: 10
+2246.4s 122 R@1: 41.9512
+2246.4s 123 R@5: 63.9024
+2246.4s 124 R@10: 74.6341
+2246.4s 125 Med r: 2.0000
+2246.4s 126 Mean r: 170.6585
+2246.4s 127 [+] Len test: 205
+2336.8s 128 [+] Text to image (1025): Number=0
+2336.8s 129 Top_positive: 3
+2336.8s 130 Breaking_rank: 15
+2336.8s 131 R@1: 41.9512
+2336.8s 132 R@5: 63.3171
+2336.8s 133 R@10: 71.5122
+2336.8s 134 Med r: 2.0000
+2336.8s 135 Mean r: 103.7854
+2336.8s 136 [+] Len test: 205
+2466.7s 137 [+] Text to image (1025): Number=1
+2466.7s 138 Top_positive: 3
+2466.7s 139 Breaking_rank: 15
+2466.7s 140 R@1: 41.9512
+2466.7s 141 R@5: 63.4146
+2466.7s 142 R@10: 72.9756
+2466.7s 143 Med r: 2.0000
+2466.7s 144 Mean r: 127.6156
+2466.7s 145 [+] Len test: 205
+2649.1s 146 [+] Text to image (1025): Number=2
+2649.1s 147 Top_positive: 3
+2649.1s 148 Breaking_rank: 15
+2649.1s 149 R@1: 41.9512
+2649.1s 150 R@5: 63.4146
+2649.1s 151 R@10: 72.9756
+2649.1s 152 Med r: 2.0000
+2649.1s 153 Mean r: 166.8478
+2649.1s 154 [+] Len test: 205
+2739.2s 155 [+] Text to image (1025): Number=0
+2739.2s 156 Top_positive: 5
+2739.2s 157 Breaking_rank: 1
+2739.2s 158 R@1: 41.9512
+2739.2s 159 R@5: 63.3171
+2739.2s 160 R@10: 71.5122
+2739.2s 161 Med r: 2.0000
+2739.2s 162 Mean r: 103.7854
+2739.2s 163 [+] Len test: 205
+2927.8s 164 [+] Text to image (1025): Number=1
+2927.8s 165 Top_positive: 5
+2927.8s 166 Breaking_rank: 1
+2927.8s 167 R@1: 45.2683
+2927.8s 168 R@5: 62.8293
+2927.8s 169 R@10: 68.1951
+2927.8s 170 Med r: 3.0000
+2927.8s 171 Mean r: 131.5678
+2927.8s 172 [+] Len test: 205
+3253.6s 173 [+] Text to image (1025): Number=2
+3253.6s 174 Top_positive: 5
+3253.6s 175 Breaking_rank: 1
+3253.6s 176 R@1: 46.5366
+3253.6s 177 R@5: 61.4634
+3253.6s 178 R@10: 66.7317
+3253.6s 179 Med r: 2.0000
+3253.6s 180 Mean r: 179.7102
+3253.6s 181 [+] Len test: 205
+3343.3s 182 [+] Text to image (1025): Number=0
+3343.3s 183 Top_positive: 5
+3343.3s 184 Breaking_rank: 5
+3343.3s 185 R@1: 41.9512
+3343.3s 186 R@5: 63.3171
+3343.3s 187 R@10: 71.5122
+3343.3s 188 Med r: 2.0000
+3343.3s 189 Mean r: 103.7854
+3343.3s 190 [+] Len test: 205
+3495.3s 191 [+] Text to image (1025): Number=1
+3495.3s 192 Top_positive: 5
+3495.3s 193 Breaking_rank: 5
+3495.3s 194 R@1: 41.9512
+3495.3s 195 R@5: 64.1951
+3495.3s 196 R@10: 68.4878
+3495.3s 197 Med r: 2.0000
+3495.3s 198 Mean r: 131.4244
+3495.3s 199 [+] Len test: 205
+3737.1s 200 [+] Text to image (1025): Number=2
+3737.1s 201 Top_positive: 5
+3737.1s 202 Breaking_rank: 5
+3737.1s 203 R@1: 41.9512
+3737.1s 204 R@5: 64.3902
+3737.1s 205 R@10: 68.0000
+3737.1s 206 Med r: 2.0000
+3737.1s 207 Mean r: 178.7737
+3737.1s 208 [+] Len test: 205
+3827.4s 209 [+] Text to image (1025): Number=0
+3827.4s 210 Top_positive: 5
+3827.4s 211 Breaking_rank: 10
+3827.4s 212 R@1: 41.9512
+3827.4s 213 R@5: 63.3171
+3827.4s 214 R@10: 71.5122
+3827.4s 215 Med r: 2.0000
+3827.4s 216 Mean r: 103.7854
+3827.4s 217 [+] Len test: 205
+3965.5s 218 [+] Text to image (1025): Number=1
+3965.5s 219 Top_positive: 5
+3965.5s 220 Breaking_rank: 10
+3965.5s 221 R@1: 41.9512
+3965.5s 222 R@5: 63.6098
+3965.5s 223 R@10: 73.2683
+3965.5s 224 Med r: 2.0000
+3965.5s 225 Mean r: 129.4371
+3965.5s 226 [+] Len test: 205
+4170.4s 227 [+] Text to image (1025): Number=2
+4170.4s 228 Top_positive: 5
+4170.4s 229 Breaking_rank: 10
+4170.4s 230 R@1: 41.9512
+4170.4s 231 R@5: 63.6098
+4170.4s 232 R@10: 73.7561
+4170.4s 233 Med r: 2.0000
+4170.4s 234 Mean r: 172.4439
+4170.4s 235 [+] Len test: 205
+4260.1s 236 [+] Text to image (1025): Number=0
+4260.1s 237 Top_positive: 5
+4260.1s 238 Breaking_rank: 15
+4260.1s 239 R@1: 41.9512
+4260.1s 240 R@5: 63.3171
+4260.1s 241 R@10: 71.5122
+4260.1s 242 Med r: 2.0000
+4260.1s 243 Mean r: 103.7854
+4260.1s 244 [+] Len test: 205
+4389.8s 245 [+] Text to image (1025): Number=1
+4389.8s 246 Top_positive: 5
+4389.8s 247 Breaking_rank: 15
+4389.8s 248 R@1: 41.9512
+4389.8s 249 R@5: 63.5122
+4389.8s 250 R@10: 72.3902
+4389.8s 251 Med r: 2.0000
+4389.8s 252 Mean r: 127.7678
+4389.8s 253 [+] Len test: 205
+4572.0s 254 [+] Text to image (1025): Number=2
+4572.0s 255 Top_positive: 5
+4572.0s 256 Breaking_rank: 15
+4572.0s 257 R@1: 41.9512
+4572.0s 258 R@5: 63.5122
+4572.0s 259 R@10: 72.3902
+4572.0s 260 Med r: 2.0000
+4572.0s 261 Mean r: 166.7502
+4572.0s 262 [+] Len test: 205
+4661.8s 263 [+] Text to image (1025): Number=0
+4661.8s 264 Top_positive: 10
+4661.8s 265 Breaking_rank: 1
+4661.8s 266 R@1: 41.9512
+4661.8s 267 R@5: 63.3171
+4661.8s 268 R@10: 71.5122
+4661.8s 269 Med r: 2.0000
+4661.8s 270 Mean r: 103.7854
+4661.8s 271 [+] Len test: 205
+4850.0s 272 [+] Text to image (1025): Number=1
+4850.0s 273 Top_positive: 10
+4850.0s 274 Breaking_rank: 1
+4850.0s 275 R@1: 45.2683
+4850.0s 276 R@5: 58.6341
+4850.0s 277 R@10: 67.8049
+4850.0s 278 Med r: 3.0000
+4850.0s 279 Mean r: 125.9024
+4850.0s 280 [+] Len test: 205
+5175.4s 281 [+] Text to image (1025): Number=2
+5175.4s 282 Top_positive: 10
+5175.4s 283 Breaking_rank: 1
+5175.4s 284 R@1: 47.0244
+5175.4s 285 R@5: 57.0732
+5175.4s 286 R@10: 64.6829
+5175.4s 287 Med r: 3.0000
+5175.4s 288 Mean r: 171.4156
+5175.4s 289 [+] Len test: 205
+5267.2s 290 [+] Text to image (1025): Number=0
+5267.2s 291 Top_positive: 10
+5267.2s 292 Breaking_rank: 5
+5267.2s 293 R@1: 41.9512
+5267.2s 294 R@5: 63.3171
+5267.2s 295 R@10: 71.5122
+5267.2s 296 Med r: 2.0000
+5267.2s 297 Mean r: 103.7854
+5267.2s 298 [+] Len test: 205
+5420.5s 299 [+] Text to image (1025): Number=1
+5420.5s 300 Top_positive: 10
+5420.5s 301 Breaking_rank: 5
+5420.5s 302 R@1: 41.9512
+5420.5s 303 R@5: 65.9512
+5420.5s 304 R@10: 70.2439
+5420.5s 305 Med r: 2.0000
+5420.5s 306 Mean r: 125.1327
+5420.5s 307 [+] Len test: 205
+5659.9s 308 [+] Text to image (1025): Number=2
+5659.9s 309 Top_positive: 10
+5659.9s 310 Breaking_rank: 5
+5659.9s 311 R@1: 41.9512
+5659.9s 312 R@5: 67.1220
+5659.9s 313 R@10: 69.9512
+5659.9s 314 Med r: 2.0000
+5659.9s 315 Mean r: 167.4937
+5659.9s 316 [+] Len test: 205
+5750.8s 317 [+] Text to image (1025): Number=0
+5750.8s 318 Top_positive: 10
+5750.8s 319 Breaking_rank: 10
+5750.8s 320 R@1: 41.9512
+5750.8s 321 R@5: 63.3171
+5750.8s 322 R@10: 71.5122
+5750.8s 323 Med r: 2.0000
+5750.8s 324 Mean r: 103.7854
+5750.8s 325 [+] Len test: 205
+5890.4s 326 [+] Text to image (1025): Number=1
+5890.4s 327 Top_positive: 10
+5890.4s 328 Breaking_rank: 10
+5890.4s 329 R@1: 41.9512
+5890.4s 330 R@5: 63.4146
+5890.4s 331 R@10: 73.0732
+5890.4s 332 Med r: 2.0000
+5890.4s 333 Mean r: 124.7668
+5890.4s 334 [+] Len test: 205
+6098.3s 335 [+] Text to image (1025): Number=2
+6098.3s 336 Top_positive: 10
+6098.3s 337 Breaking_rank: 10
+6098.3s 338 R@1: 41.9512
+6098.3s 339 R@5: 63.4146
+6098.3s 340 R@10: 73.5610
+6098.3s 341 Med r: 2.0000
+6098.3s 342 Mean r: 164.3073
+6098.3s 343 [+] Len test: 205
+6189.0s 344 [+] Text to image (1025): Number=0
+6189.0s 345 Top_positive: 10
+6189.0s 346 Breaking_rank: 15
+6189.0s 347 R@1: 41.9512
+6189.0s 348 R@5: 63.3171
+6189.0s 349 R@10: 71.5122
+6189.0s 350 Med r: 2.0000
+6189.0s 351 Mean r: 103.7854
+6189.0s 352 [+] Len test: 205
+6319.7s 353 [+] Text to image (1025): Number=1
+6319.7s 354 Top_positive: 10
+6319.7s 355 Breaking_rank: 15
+6319.7s 356 R@1: 41.9512
+6319.7s 357 R@5: 63.3171
+6319.7s 358 R@10: 72.1951
+6319.7s 359 Med r: 2.0000
+6319.7s 360 Mean r: 122.9161
+6319.7s 361 [+] Len test: 205
+6505.4s 362 [+] Text to image (1025): Number=2
+6505.4s 363 Top_positive: 10
+6505.4s 364 Breaking_rank: 15
+6505.4s 365 R@1: 41.9512
+6505.4s 366 R@5: 63.3171
+6505.4s 367 R@10: 72.1951
+6505.4s 368 Med r: 2.0000
+6505.4s 369 Mean r: 157.7512
+6505.4s 370 [+] Len test: 205
+6596.1s 371 [+] Text to image (1025): Number=0
+6596.1s 372 Top_positive: 15
+6596.1s 373 Breaking_rank: 1
+6596.1s 374 R@1: 41.9512
+6596.1s 375 R@5: 63.3171
+6596.1s 376 R@10: 71.5122
+6596.1s 377 Med r: 2.0000
+6596.1s 378 Mean r: 103.7854
+6596.1s 379 [+] Len test: 205
+6786.0s 380 [+] Text to image (1025): Number=1
+6786.0s 381 Top_positive: 15
+6786.0s 382 Breaking_rank: 1
+6786.0s 383 R@1: 45.7561
+6786.0s 384 R@5: 58.2439
+6786.0s 385 R@10: 67.2195
+6786.0s 386 Med r: 3.0000
+6786.0s 387 Mean r: 122.6966
+6786.0s 388 [+] Len test: 205
+7112.9s 389 [+] Text to image (1025): Number=2
+7112.9s 390 Top_positive: 15
+7112.9s 391 Breaking_rank: 1
+7112.9s 392 R@1: 46.9268
+7112.9s 393 R@5: 55.3171
+7112.9s 394 R@10: 63.0244
+7112.9s 395 Med r: 3.0000
+7112.9s 396 Mean r: 169.7395
+7112.9s 397 [+] Len test: 205
+7203.5s 398 [+] Text to image (1025): Number=0
+7203.5s 399 Top_positive: 15
+7203.5s 400 Breaking_rank: 5
+7203.5s 401 R@1: 41.9512
+7203.5s 402 R@5: 63.3171
+7203.5s 403 R@10: 71.5122
+7203.5s 404 Med r: 2.0000
+7203.5s 405 Mean r: 103.7854
+7203.5s 406 [+] Len test: 205
+7356.4s 407 [+] Text to image (1025): Number=1
+7356.4s 408 Top_positive: 15
+7356.4s 409 Breaking_rank: 5
+7356.4s 410 R@1: 42.0488
+7356.4s 411 R@5: 66.2439
+7356.4s 412 R@10: 71.1220
+7356.4s 413 Med r: 2.0000
+7356.4s 414 Mean r: 121.6244
+7356.4s 415 [+] Len test: 205
+7594.9s 416 [+] Text to image (1025): Number=2
+7594.9s 417 Top_positive: 15
+7594.9s 418 Breaking_rank: 5
+7594.9s 419 R@1: 42.0488
+7594.9s 420 R@5: 66.7317
+7594.9s 421 R@10: 70.1463
+7594.9s 422 Med r: 2.0000
+7594.9s 423 Mean r: 164.7132
+7594.9s 424 [+] Len test: 205
+7685.2s 425 [+] Text to image (1025): Number=0
+7685.2s 426 Top_positive: 15
+7685.2s 427 Breaking_rank: 10
+7685.2s 428 R@1: 41.9512
+7685.2s 429 R@5: 63.3171
+7685.2s 430 R@10: 71.5122
+7685.2s 431 Med r: 2.0000
+7685.2s 432 Mean r: 103.7854
+7685.2s 433 [+] Len test: 205
+7824.3s 434 [+] Text to image (1025): Number=1
+7824.3s 435 Top_positive: 15
+7824.3s 436 Breaking_rank: 10
+7824.3s 437 R@1: 42.0488
+7824.3s 438 R@5: 64.0000
+7824.3s 439 R@10: 74.3415
+7824.3s 440 Med r: 2.0000
+7824.3s 441 Mean r: 120.6371
+7824.3s 442 [+] Len test: 205
+8026.6s 443 [+] Text to image (1025): Number=2
+8026.6s 444 Top_positive: 15
+8026.6s 445 Breaking_rank: 10
+8026.6s 446 R@1: 42.0488
+8026.6s 447 R@5: 64.0000
+8026.6s 448 R@10: 74.7317
+8026.6s 449 Med r: 2.0000
+8026.6s 450 Mean r: 157.9941
+8026.6s 451 [+] Len test: 205
+8115.7s 452 [+] Text to image (1025): Number=0
+8115.7s 453 Top_positive: 15
+8115.7s 454 Breaking_rank: 15
+8115.7s 455 R@1: 41.9512
+8115.7s 456 R@5: 63.3171
+8115.7s 457 R@10: 71.5122
+8115.7s 458 Med r: 2.0000
+8115.7s 459 Mean r: 103.7854
+8115.7s 460 [+] Len test: 205
+8243.9s 461 [+] Text to image (1025): Number=1
+8243.9s 462 Top_positive: 15
+8243.9s 463 Breaking_rank: 15
+8243.9s 464 R@1: 41.9512
+8243.9s 465 R@5: 63.5122
+8243.9s 466 R@10: 72.2927
+8243.9s 467 Med r: 2.0000
+8243.9s 468 Mean r: 120.0254
+8243.9s 469 [+] Len test: 205
+8426.1s 470 [+] Text to image (1025): Number=2
+8426.1s 471 Top_positive: 15
+8426.1s 472 Breaking_rank: 15
+8426.1s 473 R@1: 41.9512
+8426.1s 474 R@5: 63.5122
+8426.1s 475 R@10: 72.2927
+8426.1s 476 Med r: 2.0000
+8426.1s 477 Mean r: 154.8127
+8431.3s 478 /usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+8431.3s 479 warn(
+8431.3s 480 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+8431.9s 481 [NbConvertApp] Writing 1659437 bytes to __notebook__.ipynb
+8433.1s 482 /usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+8433.1s 483 warn(
+8433.1s 484 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+8434.1s 485 [NbConvertApp] Support files will be in __results___files/
+8434.1s 486 [NbConvertApp] Making directory __results___files
+8434.1s 487 [NbConvertApp] Making directory __results___files
+8434.1s 488 [NbConvertApp] Writing 1027324 bytes to __results__.html
