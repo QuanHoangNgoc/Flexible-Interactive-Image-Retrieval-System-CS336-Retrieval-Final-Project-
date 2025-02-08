@@ -72,3 +72,6 @@ Traditional CBIR systems face challenges such as **scalability, interpretability
 ⭐ **Support:** If you find this project useful, give it a **star** ⭐ on GitHub!  
 
 🚀 **Let's build smarter and more flexible image retrieval systems!** 🖼️
+
+### Ref Links 
+  - [Folder Drive: Images.zip and Video-Live-Demo](https://drive.google.com/drive/folders/17YUaZgvwhWeXwOL3qV3po88-9iGgn8pb)
